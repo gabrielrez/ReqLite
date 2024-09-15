@@ -13,6 +13,15 @@ document.getElementById('themeToggle').addEventListener('click', function () {
   localStorage.setItem('theme', theme);
 });
 
+document.getElementById('requestForm').addEventListener('change', function () {
+  const method_tag = document.querySelector('.method-tag');
+  const method = document.getElementById('method-select').value;
+
+  method_tag.className = 'method-tag';
+  method_tag.classList.add(method);
+  method_tag.innerText = method.toUpperCase();
+});
+
 async function getRequest(url) {
   try {
     const response = await fetch(url);

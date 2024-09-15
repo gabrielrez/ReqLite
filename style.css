@@ -116,6 +116,51 @@ main section{
   color: var(--onSurface);
 }
 
+.select-method{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+#method-select{
+  width: 100%;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: var(--background);
+  color: var(--onSurface);
+}
+
+.method-tag{
+  transition: 0.2s ease-in-out;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+}
+
+.get{
+  background-color: #1A73E8;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.post{
+  background-color: #34A853;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.put{
+  background-color: #FBBC04;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.delete{
+  background-color: #EA4335;
+  padding: 4px;
+  border-radius: 2px;
+}
+
 textarea {
   width: 100%;
   height: 250px;
