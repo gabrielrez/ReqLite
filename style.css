@@ -10,7 +10,7 @@
 }
 
 .light-theme {
-  --background: #FAFAFA;
+  --background: #ECECEC;
   --surface: #FFFFFF;
   --primary: #6200EE;
   --secondary: #03DAC6;
@@ -164,10 +164,6 @@ pre {
 .light-theme header,
 .light-theme main section {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.light-theme .input{
-  border: 1px solid #121212;
 }
 
 .light-theme pre{
