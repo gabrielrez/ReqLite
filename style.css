@@ -87,9 +87,12 @@ main section{
   color: var(--onSurface);
 }
 
+.request-form{
+  height: 100%;
+}
+
 #requestForm{
-  margin-top: 32px;
-  height: 64vh;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -135,7 +138,7 @@ textarea {
   transform: scale(0.95);
 }
 
-.response h3{
+.response h2{
   font-family: 'Poppins';
 }
 
@@ -146,6 +149,8 @@ pre {
   padding: 16px;
   border-radius: 4px;
   background-color: var(--background);
+  max-height: 60vh;
+  overflow-y: auto;
 }
 
 .btn-theme{
